@@ -6,6 +6,12 @@ body{
 }
 
 
+main{
+    width: 90%;
+    margin: auto;
+}
+
+
 
 /*Colori pagina*/
 
@@ -223,7 +229,7 @@ span{
     height: 120px;
     width: 120px;
     border-radius: 10%;
-    border: 0.1px solid rgba(0, 0, 0, 0.341);
+    border: 0.1px solid rgba(189, 132, 132, 0.341);
 }
 
 
