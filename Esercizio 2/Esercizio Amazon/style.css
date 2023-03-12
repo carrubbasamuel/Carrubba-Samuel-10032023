@@ -193,7 +193,7 @@ span{
 }
 
 .card-more{
-    margin: 5% 10%;
+    margin: 5% 7.5%;
     font-family: Arial, Helvetica, sans-serif;
     color: rgba(15, 101, 177, 0.743);
     font-size: 14px;
@@ -222,6 +222,8 @@ span{
 .img-dim{
     height: 120px;
     width: 120px;
+    border-radius: 10%;
+    border: 0.1px solid rgba(0, 0, 0, 0.341);
 }
 
 
