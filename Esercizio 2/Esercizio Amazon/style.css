@@ -1,0 +1,462 @@
+
+body{
+    background-color: rgb(233, 230, 230);
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*Colori pagina*/
+
+.bg-grayblue{
+    color: #eaeded;
+    background-color: #232f3e;
+}
+
+.bg-dark {
+    color: #eaeded;
+    background-color: #131921;
+}
+
+.bg-yellow {
+    color: #eaeded;
+    background-color:#f56600;
+}
+
+.c-white{
+    color: #eaeded;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+/*Header Css*/
+
+
+#logo-top{
+    width: 150px;
+    margin: 20px;
+}
+
+#navbar{
+    display: flex;
+    list-style-type: none;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+ 
+ }
+
+ li{
+    margin: 3px 10px 3px 20px;
+}
+
+/*Font*/
+
+.font-Ariel{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+/*Main Css*/
+
+.centra{
+    display: block;
+    margin: auto;
+    margin-top: 30px;;
+    width: 90%;
+ 
+ }
+
+
+ /*Primo Banner*/
+
+ #banner1{
+    padding: 5px;
+    font-weight: normal;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+/*Secondo Banner*/
+
+#banner2{
+    background-image: url(img/bg-image.png);
+    height: 170px;
+    background-repeat: repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+
+/*Raccolta di immagini*/
+
+
+#gift-bt{
+    padding: 20px 5px 5px 40px;
+    margin: 0;
+    font-weight: bold;
+}
+ 
+
+
+.img-dim-small{
+    display: flex;
+    height: 300px;
+    width: 280px;
+    object-fit: cover;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+
+/*Terzo e Quarto Banner*/
+
+
+.banner3{
+    height: 420px;
+    background-image: url(img/img_9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner4{
+    height: 420px;
+    background-image: url(img/img_10.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+/*Logo Footer*/
+#logo-f{
+    width: 150px;
+    padding: 100px;
+}
+
+
+
+
+/*Rifiniture*/
+h2{
+    padding-top: 50px;
+}
+
+
+a{
+    display: block;
+    color: #eaeded;
+    padding: 10px;
+}
+
+strong{
+    color: rgba(15, 101, 177, 0.743);
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+
+
+}
+ 
+.note{
+    margin: 5px 20px 40px 20px;
+}
+
+
+/*Regole per le Card utilizzando FlexBox*/
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.card-title{
+    margin-left: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+.card-more{
+    margin: 5% 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(15, 101, 177, 0.743);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+
+.Cards{
+    display: flex;
+    background-color: #ffffff;
+    flex-flow: row wrap;
+    width: 24%;
+    
+}
+
+
+.flex-img{
+    width: 100%;
+    justify-content: space-around;
+    margin: 2% 2%;
+}
+
+
+
+.img-dim{
+    height: 120px;
+    width: 120px;
+}
+
+
+
+/*Primo Blocco*/
+#G1{
+    background-image: url(img/img_15.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#G2{
+    background-image: url(img/img_16.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#G3{
+    background-image: url(img/img_17.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#G4{
+    background-image: url(img/img_18.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*Secondo Blocco*/
+
+#C1{
+    background-image: url(img/img_19.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#C2{
+    background-image: url(img/img_20.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#C3{
+    background-image: url(img/img_21.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#C4{
+    background-image: url(img/img_22.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*Terzo Blocco*/
+
+
+#H1{
+    background-image: url(img/img_11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#H2{
+    background-image: url(img/img_12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#H3{
+    background-image: url(img/img_13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#H4{
+    background-image: url(img/img_14.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/*Quarto Blocco*/
+
+#A1{
+    background-image: url(img/img_24.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#A2{
+    background-image: url(img/img_25.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#A3{
+    background-image: url(img/img_26.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#A4{
+    background-image: url(img/img_27.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*----------Esercizio 11/03/2023---------*/
+
+.flex-img-overlay{
+    justify-content: space-around;
+    margin: 2% 2%;
+}
+
+.conteiner-overlay{
+    position: relative;
+    overflow: hidden;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px rgba(122, 102, 102, 0.393)
+   
+}
+
+.conteiner-overlay::before{
+    content: " ";
+    position: absolute;
+    opacity: 0;
+    transform-origin: top bottom;
+    top:0;bottom:0;right: 0;left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: all .5s ease-in-out;
+}
+
+
+/*------------botton------------*/
+
+/*----------------Use Font Awesome--------------*/
+
+
+i{
+    font-size: 16px;
+    margin: 2px;
+}
+
+.button{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.507);
+    cursor: pointer;
+    color: black;
+    transform: scale(0);
+    transition: all .3s ease-in-out;
+} 
+
+
+
+#saveButton{
+    border-radius: 50%;
+    padding: 10px;
+    top: 10px;
+    left: 230px;
+    transition-delay: .1s;
+}
+
+
+
+#dotsButton{
+    border-radius: 50%;
+    padding: 10px;
+    top: 250px;
+    left: 230px;
+    transition-delay: .2s;
+}
+
+
+
+#shareButton{
+    border-radius: 50%;
+    top: 250px;
+    left: 180px;
+    padding: 10px;
+    transition-delay: .3s;
+}
+
+
+#linkButton{
+    font-family:Arial, Helvetica, sans-serif;
+    width: 110px;
+    top: 250px;
+    left: 10px;
+    border-radius: 15px;
+    padding: 10px 5px;
+    transition-delay: .4s;
+}
+
+
+
+
+
+
+
+
+/*:hover*/
+
+
+
+.conteiner-overlay:hover::before{ 
+    opacity: 1;
+
+ }
+ 
+ 
+ .conteiner-overlay:hover .button{
+     transform: scale(1);
+ }
+

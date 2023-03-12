@@ -1,0 +1,147 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+/*----------Card-Box----------*/
+
+
+.card-box{
+    position: relative;
+    margin: auto;
+    margin-top: 100px ;
+    padding: 10px;
+    background-color: rgba(254, 254, 254, 0.671);
+    width: 275px;
+    height: 380px;  
+    border: 3px solid black;
+    box-shadow: 10px 10px 5px rgba(122, 102, 102, 0.393)
+ 
+
+} 
+
+img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+
+
+/*------------overlay------------*/
+
+
+.conteiner-overlay{
+    position: relative;
+    width: 250px;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 25px;
+   
+}
+
+.conteiner-overlay::before{
+    content: " ";
+    position: absolute;
+    opacity: 0;
+    transform-origin: top bottom;
+    top:0;bottom:0;right: 0;left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: all .5s ease-in-out;
+}
+
+
+/*------------botton------------*/
+
+/*----------------Use Font Awesome--------------*/
+
+
+i{
+    font-size: 16px;
+    margin: 2px;
+}
+
+.button{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.507);
+    cursor: pointer;
+    color: black;
+    transform: scale(0);
+    transition: all .3s ease-in-out;
+} 
+
+
+
+#saveButton{
+    border-radius: 50%;
+    padding: 10px;
+    top: 10px;
+    left: 200px;
+    transition-delay: .1s;
+}
+
+
+
+#dotsButton{
+    border-radius: 50%;
+    padding: 10px;
+    top: 300px;
+    left: 200px;
+    transition-delay: .2s;
+}
+
+
+
+#shareButton{
+    border-radius: 50%;
+    top: 300px;
+    left: 150px;
+    padding: 10px;
+    transition-delay: .3s;
+}
+
+
+#linkButton{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 130px;
+    top: 300px;
+    left: 10px;
+    border-radius: 15px;
+    padding: 10px;
+    transition-delay: .4s;
+}
+
+
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+
+
+
+/*:hover*/
+
+
+
+.conteiner-overlay:hover::before{ 
+    opacity: 1;
+
+ }
+ 
+ 
+ .conteiner-overlay:hover .button{
+     transform: scale(1);
+ }
+
